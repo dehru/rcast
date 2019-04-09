@@ -1,0 +1,21 @@
+:host {
+    /* Make the app container takes 100% of the viewport */
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* Lets use css grid! */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    flex: 1;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
